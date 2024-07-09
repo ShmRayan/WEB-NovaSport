@@ -1,0 +1,73 @@
+.homepage {
+    padding: 20px;
+  }
+  
+  .promo-header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promo-header h1 {
+    color: #002B5B;
+    margin-bottom: 10px;
+  }
+  
+  .promo-header p {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .promo-header button {
+    background-color: #FF6F00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .promo-header button:hover {
+    background-color: #FFC107;
+  }
+  
+  .featured-products {
+    text-align: center;
+  }
+  
+  .featured-products h2 {
+    color: #002B5B;
+    margin-bottom: 20px;
+  }
+  
+  .products-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    color: #333;
+  }
+  
