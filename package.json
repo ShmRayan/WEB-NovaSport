@@ -22,7 +22,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ShmRayan.github.io/WEB-NovaSport",
   "eslintConfig": {
     "extends": [
       "react-app",
