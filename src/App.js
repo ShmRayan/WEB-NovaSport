@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import ProductsPage from './components/ProductsPage';
 import ProductDetailsPage from './components/ProductDetailsPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div className="App">
+      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -18,8 +18,8 @@ function App() {
           <Route path="/productdetails" element={<ProductDetailsPage />} />
         </Routes>
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 

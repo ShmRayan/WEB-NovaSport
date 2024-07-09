@@ -11,34 +11,34 @@ const ProductsPage = () => {
   const navigate = useNavigate();
 
   const products = [
-    { id: 1, name: 'Nike', price: '79.99$', image: '/assets/nike.jpg' },
-    { id: 2, name: 'Adidas', price: '79.99$', image: '/assets/adidas.webp' },
-    { id: 3, name: 'Puma', price: '79.99$', image: '/assets/puma.jpg' },
-    { id: 4, name: 'Abibos', price: '79.99$', image: '/assets/abibos.webp' },
-    { id: 5, name: 'Montre', price: '49.99$', image: '/assets/montre.jpg' },
-    { id: 6, name: 'Altere', price: '49.99$', image: '/assets/altere.jpg' },
-    { id: 7, name: 'Casquette', price: '49.99$', image: '/assets/casquette.jpg' },
-    { id: 8, name: 'Debardeur', price: '49.99$', image: '/assets/debardeur.jpg' },
-    { id: 9, name: 'NikePromo', price: '69.99$', image: '/assets/nike1.jpg' },
-    { id: 10, name: 'AdidasPromo', price: '69.99$', image: '/assets/adidas1.jpeg' },
-    { id: 11, name: 'PumaPromo', price: '69.99$', image: '/assets/puma1.webp' },
-    { id: 12, name: 'AbibosPromo', price: '69.99$', image: '/assets/abibos1.jpeg' },
-    { id: 13, name: 'MontrePromo', price: '39.99$', image: '/assets/montre1.jpg' },
-    { id: 14, name: 'AlterePromo', price: '39.99$', image: '/assets/altere1.jpeg' },
-    { id: 15, name: 'CasquettePromo', price: '39.99$', image: '/assets/casquette1.webp' },
-    { id: 16, name: 'DebardeurPromo', price: '39.99$', image: '/assets/debardeur1.jpeg' }
+    { id: 1, name: 'Nike', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/nike.jpg' },
+    { id: 2, name: 'Adidas', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/adidas.webp' },
+    { id: 3, name: 'Puma', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/puma.jpg' },
+    { id: 4, name: 'Abibos', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/abibos.webp' },
+    { id: 5, name: 'Montre', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/montre.jpg' },
+    { id: 6, name: 'Altere', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/altere.jpg' },
+    { id: 7, name: 'Casquette', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/casquette.jpg' },
+    { id: 8, name: 'Debardeur', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/debardeur.jpg' },
+    { id: 9, name: 'NikePromo', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/nike1.jpg' },
+    { id: 10, name: 'AdidasPromo', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/adidas1.jpeg' },
+    { id: 11, name: 'PumaPromo', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/puma1.webp' },
+    { id: 12, name: 'AbibosPromo', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/abibos1.jpeg' },
+    { id: 13, name: 'MontrePromo', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/montre1.jpg' },
+    { id: 14, name: 'AlterePromo', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/altere1.jpeg' },
+    { id: 15, name: 'CasquettePromo', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/casquette1.webp' },
+    { id: 16, name: 'DebardeurPromo', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/debardeur1.jpeg' }
     
   ];
 
   const promotions = [
-    { id: 1, name: 'Nike', price: '69.99$', image: '/assets/nike1.jpg' },
-    { id: 2, name: 'Adidas', price: '69.99$', image: '/assets/adidas1.jpeg' },
-    { id: 3, name: 'Puma', price: '69.99$', image: '/assets/puma1.webp' },
-    { id: 4, name: 'Abibos', price: '69.99$', image: '/assets/abibos1.jpeg' },
-    { id: 5, name: 'Montre', price: '39.99$', image: '/assets/montre1.jpg' },
-    { id: 6, name: 'Altere', price: '39.99$', image: '/assets/altere1.jpeg' },
-    { id: 7, name: 'Casquette', price: '39.99$', image: '/assets/casquette1.webp' },
-    { id: 8, name: 'Debardeur', price: '39.99$', image: '/assets/debardeur1.jpeg' }
+    { id: 1, name: 'Nike', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/nike1.jpg' },
+    { id: 2, name: 'Adidas', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/adidas1.jpeg' },
+    { id: 3, name: 'Puma', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/puma1.webp' },
+    { id: 4, name: 'Abibos', price: '69.99$', image: '${process.env.PUBLIC_URL}/assets/abibos1.jpeg' },
+    { id: 5, name: 'Montre', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/montre1.jpg' },
+    { id: 6, name: 'Altere', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/altere1.jpeg' },
+    { id: 7, name: 'Casquette', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/casquette1.webp' },
+    { id: 8, name: 'Debardeur', price: '39.99$', image: '${process.env.PUBLIC_URL}/assets/debardeur1.jpeg' }
   ];
 
   const filterOptions = {

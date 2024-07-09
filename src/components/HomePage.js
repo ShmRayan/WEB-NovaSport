@@ -3,8 +3,9 @@ import styled, { keyframes } from 'styled-components';
 import {  Link  } from 'react-router-dom';
 
 
-const sportImage = '/assets/background.jpg';
-const promoImage = '/assets/promotion.jpg';
+const sportImage = `${process.env.PUBLIC_URL}/assets/background.jpg`;
+const promoImage = `${process.env.PUBLIC_URL}/assets/promotion.jpg`;
+
 
 
 
@@ -14,17 +15,17 @@ const HomePage = () => {
   const [currentAccessoryIndex, setCurrentAccessoryIndex] = useState(0);
 
   const shoes = [
-    { id: 1, name: 'Nike', price: '79.99$', image: '/assets/nike.jpg' },
-    { id: 2, name: 'Adidas', price: '79.99$', image: '/assets/adidas.webp' },
-    { id: 3, name: 'Puma', price: '79.99$', image: '/assets/puma.jpg' },
-    { id: 4, name: 'Abibos', price: '79.99$', image: '/assets/abibos.webp' }
+    { id: 1, name: 'Nike', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/nike.jpg' },
+    { id: 2, name: 'Adidas', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/adidas.webp' },
+    { id: 3, name: 'Puma', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/puma.jpg' },
+    { id: 4, name: 'Abibos', price: '79.99$', image: '${process.env.PUBLIC_URL}/assets/abibos.webp' }
   ];
   
   const accessories = [
-    { id: 1, name: 'Montre', price: '49.99$', image: '/assets/montre.jpg' },
-    { id: 2, name: 'Altere', price: '49.99$', image: '/assets/altere.jpg' },
-    { id: 3, name: 'Casquette', price: '49.99$', image: '/assets/casquette.jpg' },
-    { id: 4, name: 'Debardeur', price: '49.99$', image: '/assets/debardeur.jpg' }
+    { id: 1, name: 'Montre', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/montre.jpg' },
+    { id: 2, name: 'Altere', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/altere.jpg' },
+    { id: 3, name: 'Casquette', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/casquette.jpg' },
+    { id: 4, name: 'Debardeur', price: '49.99$', image: '${process.env.PUBLIC_URL}/assets/debardeur.jpg' }
   ];
 
   useEffect(() => {
