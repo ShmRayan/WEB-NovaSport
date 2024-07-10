@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WEB-NovaSport/static/css/main.62101508.css",
-    "main.js": "/WEB-NovaSport/static/js/main.d386b876.js",
-    "static/js/453.5eacadc5.chunk.js": "/WEB-NovaSport/static/js/453.5eacadc5.chunk.js",
-    "static/media/background.webp": "/WEB-NovaSport/static/media/background.511b5119212b26b27bed.webp",
-    "index.html": "/WEB-NovaSport/index.html",
-    "main.62101508.css.map": "/WEB-NovaSport/static/css/main.62101508.css.map",
-    "main.d386b876.js.map": "/WEB-NovaSport/static/js/main.d386b876.js.map",
-    "453.5eacadc5.chunk.js.map": "/WEB-NovaSport/static/js/453.5eacadc5.chunk.js.map"
+    "main.css": "/static/css/main.fedb5477.css",
+    "main.js": "/static/js/main.6f76d814.js",
+    "static/js/453.5eacadc5.chunk.js": "/static/js/453.5eacadc5.chunk.js",
+    "static/media/background.webp": "/static/media/background.511b5119212b26b27bed.webp",
+    "index.html": "/index.html",
+    "main.fedb5477.css.map": "/static/css/main.fedb5477.css.map",
+    "main.6f76d814.js.map": "/static/js/main.6f76d814.js.map",
+    "453.5eacadc5.chunk.js.map": "/static/js/453.5eacadc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62101508.css",
-    "static/js/main.d386b876.js"
+    "static/css/main.fedb5477.css",
+    "static/js/main.6f76d814.js"
   ]
 }
