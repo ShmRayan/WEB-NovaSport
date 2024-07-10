@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fedb5477.css",
-    "main.js": "/static/js/main.6f76d814.js",
-    "static/js/453.5eacadc5.chunk.js": "/static/js/453.5eacadc5.chunk.js",
-    "static/media/background.webp": "/static/media/background.511b5119212b26b27bed.webp",
-    "index.html": "/index.html",
-    "main.fedb5477.css.map": "/static/css/main.fedb5477.css.map",
-    "main.6f76d814.js.map": "/static/js/main.6f76d814.js.map",
-    "453.5eacadc5.chunk.js.map": "/static/js/453.5eacadc5.chunk.js.map"
+    "main.css": "/novasport/static/css/main.971c1174.css",
+    "main.js": "/novasport/static/js/main.2b22d968.js",
+    "static/js/453.5eacadc5.chunk.js": "/novasport/static/js/453.5eacadc5.chunk.js",
+    "static/media/background.webp": "/novasport/static/media/background.511b5119212b26b27bed.webp",
+    "index.html": "/novasport/index.html",
+    "main.971c1174.css.map": "/novasport/static/css/main.971c1174.css.map",
+    "main.2b22d968.js.map": "/novasport/static/js/main.2b22d968.js.map",
+    "453.5eacadc5.chunk.js.map": "/novasport/static/js/453.5eacadc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fedb5477.css",
-    "static/js/main.6f76d814.js"
+    "static/css/main.971c1174.css",
+    "static/js/main.2b22d968.js"
   ]
 }
