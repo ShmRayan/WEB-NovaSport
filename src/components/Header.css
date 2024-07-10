@@ -6,7 +6,6 @@
   color: white;
 }
 
-
 .top-container {
   display: flex;
   justify-content: space-between;
@@ -20,9 +19,9 @@
 }
 
 .logo-text {
-  font-size: 2rem; /* Increased font size */
-  font-style: italic; /* Italic style */
-  font-weight: bold; /* Bold style */
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
   margin-left: 20px;
 }
 
@@ -39,30 +38,52 @@
   font-weight: bold;
   font-size: 20px;
   margin-left: 20px;
+  transition: transform 0.3s ease; /* Ajout de la transition */
 }
 
 .nav-link:hover {
-  color: #ff9800;
+  color: #55686a;
+  transform: translateY(-5px); /* Effet de montée */
 }
 
 .icons-container {
+  font-size: 22px;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .icon {
   color: white;
+  transition: transform 0.3s ease; /* Ajout de la transition */
+}
+
+.icon:hover {
+  transform: translateY(-5px); /* Effet de montée */
+}
+
+.icon-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon-link:hover {
+  color: #ff9800;
+  transform: translateY(-5px); /* Effet de montée */
 }
 
 .bold-link {
   color: white;
   text-decoration: none;
-  font-weight: bold; /* Bold style */
+  font-weight: bold;
+  transition: transform 0.3s ease; /* Ajout de la transition */
 }
 
 .bold-link:hover {
   color: #ff9800;
+  transform: translateY(-5px); /* Effet de montée */
 }
 
 .search-container {
@@ -88,19 +109,22 @@
 
 .suggestions-box {
   position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
+  top: calc(100% + 5px); /* Positionner juste en dessous de la barre de recherche */
+  left: auto;
+  right: 0; /* Alignement à droite */
+  width: auto;
+  min-width: 200px; /* Largeur minimum pour la boîte de suggestions */
   background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée pour un meilleur effet */
   z-index: 10;
 }
 
 .suggestion {
   padding: 0.5rem;
   cursor: pointer;
+  color: #333;
 }
 
 .suggestion:hover {

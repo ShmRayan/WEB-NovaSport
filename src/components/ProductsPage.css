@@ -1,167 +1,322 @@
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 80px ;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
-  }
-  
-  .logo {
-    font-size: 2rem;
-    color: #004080;
-  }
-  
-  .search-bar {
-    padding: 10px;
-    font-size: 1rem;
-    border: 2px solid #004080;
-    border-radius: 5px;
-  }
-  
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .filter-button {
-    position: relative;
-    padding: 10px 20px;
-    background-color: #004080;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-  
-  .filter-options {
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background-color: white;
-    border: 1px solid #004080;
-    border-radius: 5px;
-    z-index: 10;
-  }
-  
-  .filter-button:hover .filter-options {
-    display: block;
-  }
-  
-  .filter-options button {
-    display: block;
-    padding: 10px;
-    border: none;
-    background: none;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-  }
-  
-  .selected-filter {
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #004080; /* Changer la couleur du texte */
-  }
-  
-  .results, .promotions {
-    margin-top: 20px;
-  }
-  
-  .section-title {
-    font-size: 1.5rem;
-    color: #004080;
-    margin-bottom: 10px;
-  }
-  
-  .product-slider {
-    display: flex;
-    align-items: center;
-  }
-  
-  .product-grid {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    transition: transform 0.5s ease;
-  }
+.container1 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 80px;
+}
 
-  .product-link {
-    text-decoration: none;
-    color: inherit;
-  }  
-  
-  .product-card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 200px;
-    margin: 0 10px;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transition pour l'effet de survol */
-  }
-  
-  .product-card:hover {
-    transform: translateY(-10px); /* Effet de survol pour faire monter l'article */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Effet de survol pour l'ombre */
-  }
-  
-  .product-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-  }
-  
-  .product-info {
-    padding: 10px;
-  }
-  
-  .product-name {
-    font-size: 1rem;
-    color: #004080;
-    font-weight: bold;
-  }
-  
-  .product-price {
-    font-size: 1.2rem;
-    color: #e60000;
-    font-weight: bold;
-  }
-  
-  .product-sale {
-    font-size: 1rem;
-    color: #e60000;
-    font-weight: bold;
-  }
-  
-  .slider-arrow {
-    background: none;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    color: #004080;
-  }
-  
-  .solde-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 50px;
-    height: auto;
-  }
-  
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.logo1 {
+  font-size: 2rem;
+  color: #004080;
+}
+
+.search-bar1 {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #004080;
+  border-radius: 5px;
+}
+
+.filters1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-button1 {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.filter-options1 {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #004080;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.filter-button1:hover .filter-options1 {
+  display: block;
+}
+
+.filter-options1 button {
+  display: block;
+  padding: 10px;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.selected-filter1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #004080; /* Changer la couleur du texte */
+}
+
+.results1, .promotions1 {
+  margin-top: 20px;
+}
+
+.section-title1 {
+  font-size: 1.5rem;
+  color: #004080;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.product-slider1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-grid1 {
+  display: flex;
+  overflow: hidden;
+  width: 80%; /* Ajuster la largeur fixe de la grille */
+}
+
+.product-link1 {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product1-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Fixer la largeur des cartes */
+  margin: 0 10px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  flex-shrink: 0; /* Empêcher la réduction de taille */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transition pour l'effet de survol */
+}
+
+.product1-card:hover {
+  transform: translateY(-10px); /* Effet de survol pour faire monter l'article */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Effet de survol pour l'ombre */
+}
+
+.product-image1 {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-info1 {
+  padding: 10px;
+}
+
+.product-name1 {
+  font-size: 1rem;
+  color: #004080;
+  font-weight: bold;
+}
+
+.product-price1 {
+  font-size: 1.2rem;
+  color: #e60000;
+  font-weight: bold;
+}
+
+.product-sale1 {
+  font-size: 1rem;
+  color: #e60000;
+  font-weight: bold;
+}
+
+.slider-arrow1 {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #004080;
+  z-index: 1;
+  margin: 40px;
+}
+
+.solde-icon1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: auto;
+}
+
+.reviews-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section .section-title1 {
+  color: #004080;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.review-author {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.review-stars {
+  font-size: 1.2rem;
+  color: #ff9800;
+  margin-top: 5px;
+}
+
+.explanatory-text {
+  color: #004080; /* Utilisation d'un bleu plus foncé pour une meilleure lisibilité */
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.sub-text {
+  color: #004080; /* Utilisation d'un bleu plus foncé pour une meilleure lisibilité */
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.support-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.support-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.support-option {
+  flex: 1;
+  padding: 10px;
+}
+
+.support-option img {
+  width: 50px;
+  height: 50px;
+}
+
+.support-option h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #004080;
+}
+
+.support-option p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #004080;
+}
+
+.support-option a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.support-option a:hover {
+  text-decoration: underline;
+}
+
+.contact-info {
+  font-size: 1rem;
+  margin-top: 90px;
+  color: #004080;
+}
+
+.contact-info strong {
+  font-size: 1.1rem;
+  display: block;
+  margin: 10px 0;
+  color: #004080;
+}
+
+.support-title {
+  color: #004080; /* Bleu pour le titre */
+}
+
+.accordion-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-title {
+  font-size: 1.2rem;
+  color: #007bff;
+  cursor: pointer;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-content.open {
+  max-height: 200px; /* Ajustez en fonction du contenu */
+}
+
+.accordion-content p {
+  font-size: 1rem;
+  color: #333;
+  padding: 10px 0;
+}
